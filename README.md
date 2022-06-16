@@ -25,10 +25,21 @@ To view coverage report as a HTML document:
 ```
 
 Remember when revisiting after the IDE or terminal has been restarted, restart the env;
+
+<sub>On Linux/Mac this will be `./bin/activate`, on M1 Mac use `source ./bin/activate.csh` from a csh terminal</sub>
 ```
     ProjectRoot>.\Scipts\activate
 ```
 When the env is active you should see the project name before the directory in ther terminal;
 ```
     (ProjectName) ProjectName>
+```
+
+To update the dependancy list, use;
+```
+    ProjectName>pip install -r requirements.txt 
+```
+To install dependancies, use;
+```
+    ProjectRoot>pip install -r requirements.txt
 ```
